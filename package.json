@@ -1,0 +1,28 @@
+{
+  "name": "flux-todo",
+  "version": "0.0.1",
+  "description": "Building Todo app with Flux architecture.",
+  "repository": "https://github.com/nirajshr/flux-todo",
+  "main": "js/app.js",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "keymirror": "~0.1.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.12.0"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "watchify": "^2.1.1",
+    "reactify": "^0.15.2"
+  },
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d js/app.js",
+    "build-js": "browserify js/app.js -o js/bundle.js"
+  },
+  "author": "Niraj Shrestha",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
