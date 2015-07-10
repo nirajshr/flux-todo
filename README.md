@@ -6,5 +6,5 @@ npm run build-js
 
 Then, point your browser to index.html
 
-You can kickoff the watchify script while doing dev work:
+While doing dev work, kickoff the watchify script to automate build step
 npm run start
