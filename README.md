@@ -1,10 +1,14 @@
-Todo app in Flux style
+#Todo app in Flux style
+A very simple ToDo app written with react-js and Flux style architecture.
+##How to get started?
+Run this at the root dir of the project: 
+    
+    #!bash
+    npm install npm run build-js
 
-Run this at the root dir of the project:
-npm install
-npm run build-js
+Then, point your browser to "index.html" in root dir
 
-Then, point your browser to index.html
-
-While doing dev work, kickoff the watchify script to automate build step
-npm run start
+While doing dev work, kickoff the watchify script to automate build step 
+    
+    #!bash
+    npm run start
